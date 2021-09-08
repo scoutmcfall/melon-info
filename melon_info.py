@@ -17,6 +17,6 @@ def print_melon(melons):
         print(name.upper()) #prints melon name in uppercase
         for attribute, value in attributes.items(): #accesses the nexted dictionary of attributes for each melon
             print(f'{attribute}: {value}') #prints a list of each value and what that value is
-            #one idea is to remove the _ from the attribute names
+            
         print("----------------------------------")
     
